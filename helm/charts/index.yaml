@@ -2,6 +2,24 @@ apiVersion: v1
 entries:
   nack:
   - apiVersion: v2
+    appVersion: 0.22.2
+    created: "2026-04-07T16:01:27.708741477Z"
+    description: A Helm chart for NACK - NATS Controller for Kubernetes
+    digest: 17164d366109460e8ccbcabb3e5157dcda417ecadd1b6a5800e87f4178d3c972
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - jetstream
+    - cncf
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: nack
+    urls:
+    - https://github.com/alexbozhenko/k8s/releases/download/nack-0.33.2/nack-0.33.2.tgz
+    version: 0.33.2
+  - apiVersion: v2
     appVersion: 0.16.1
     created: "2024-12-18T19:03:10.88246183Z"
     description: A Helm chart for NACK
@@ -632,6 +650,26 @@ entries:
     - https://github.com/nats-io/k8s/releases/download/v0.6.0/nack-0.6.0.tgz
     version: 0.6.0
   nats:
+  - apiVersion: v2
+    appVersion: 2.12.6
+    created: "2026-04-07T16:01:27.84189456Z"
+    description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
+      Communications Technology.
+    digest: de7f513f96a432e12dae13cca51e444d5e908f619d50e927da3067786dd3aaa8
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: nats
+    urls:
+    - https://github.com/alexbozhenko/k8s/releases/download/nats-2.12.6/nats-2.12.6.tgz
+    version: 2.12.6
   - apiVersion: v2
     appVersion: 2.10.25
     created: "2025-01-24T20:24:26.432851426Z"
@@ -2955,6 +2993,27 @@ entries:
   nats-account-server:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2026-04-07T16:01:27.971811857Z"
+    description: A Helm chart for the NATS.io JWT Account Server
+    digest: 211cd890dc3dd5e601230f84b6fa3ce8ae8695fdcaf028b235bab507988eb42a
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    - jwt
+    - auth
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: nats-account-server
+    urls:
+    - https://github.com/alexbozhenko/k8s/releases/download/nats-account-server-0.8.1/nats-account-server-0.8.1.tgz
+    version: 0.8.1
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2021-05-11T10:21:31.160483-07:00"
     description: A Helm chart for the NATS.io JWT Account Server
     digest: 0626e7465b72a164f6de98fa4ad0d58080b9fec4f46f6d6d2d7456520f3c1667
@@ -3839,6 +3898,20 @@ entries:
     version: 0.2.0
   surveyor:
   - apiVersion: v2
+    appVersion: 0.9.7
+    created: "2026-04-07T16:01:28.163585764Z"
+    description: NATS Monitoring, Simplified.
+    digest: bab06b4620897f3d90045ac0205cab61d5da58d6c895d0cedb04005207028e26
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: surveyor
+    type: application
+    urls:
+    - https://github.com/alexbozhenko/k8s/releases/download/surveyor-0.20.8/surveyor-0.20.8.tgz
+    version: 0.20.8
+  - apiVersion: v2
     appVersion: 0.8.0
     created: "2025-02-14T22:31:30.288988966Z"
     description: NATS Monitoring, Simplified.
@@ -4080,4 +4153,4 @@ entries:
     urls:
     - https://github.com/nats-io/k8s/releases/download/v0.9.2/surveyor-0.9.2.tgz
     version: 0.9.2
-generated: "2025-02-14T22:31:30.289767911Z"
+generated: "2026-04-07T16:01:28.164279167Z"
